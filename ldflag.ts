@@ -16,7 +16,7 @@ const USER: USER = {
        users for targeting purposes */
   },
 };
-const CLIENT_ID: string = /* Here goes client id from LD Admin Panel
+const CLIENT_ID: string = /* Here goes client id from LD Admin Panel */
 const FLAG_NAME: string = /* Here goes flag name */
 
 const launchDarklyClient = ((): { getFeatureStatus: () => Promise<any> } => {
